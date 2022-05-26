@@ -13,6 +13,6 @@ app.use(express.json())
 app.use('/',router)
 app.use(errorHandler)
 
-app.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode");
+app.listen((process.env.PORT || 5000), function(){
+  console.log('listening on *:5000');
 });
