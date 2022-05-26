@@ -76,14 +76,6 @@ class ValoController {
     }
   }
 
-  static async matchbyid(req,res,next){
-    try {
-      
-    } catch (err) {
-      
-    }
-  }
-
   static async myProfile(req,res,next){
     try {
       const {ign,tagline} = req.extra
